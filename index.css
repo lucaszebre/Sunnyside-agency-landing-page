@@ -4,7 +4,7 @@
 
 
 *{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body{
@@ -353,7 +353,7 @@ footer{
     font-family: 'Barlow';
 }
 
-li button{
+button{
     border: none;
     background-color: yellow;
     font-size: 1rem;
@@ -394,7 +394,7 @@ li button{
         
     }
     .logo-nav{
-        width: 3vw;
+        width: 4vw;
     }
     .off-canvas{
         text-align: center;
@@ -412,20 +412,24 @@ li button{
         color: white;
         display: flex;
         flex-direction: row;
+        align-items: baseline;
+        text-align: baseline;
     }
     .menu li{
-        font-size: 1.3vw;
+        text-align: center;
+        
+        font-size: 1.4vw;
         margin-right: 1em;
     }
-    li button{
+    button{
         background-color: white;
         color: black;
-        padding: 1.5em;
-        padding-left: 3em;
-        padding-right: 3em;
-        font-size: 0.5vw;
-        padding: ;
-    }
+        /* margin-top: 0em; */
+        margin-left: 2em;
+        margin-right: 2em;
+        border-radius: 0.7rem;
+        font-size: 1vw;}
+
     .open-mobile{
         display: none;
     }
